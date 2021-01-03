@@ -1,4 +1,4 @@
-package org.core.java8.probems;
+package core.java8.probems;
 
 public class NumberFormatting {
 	

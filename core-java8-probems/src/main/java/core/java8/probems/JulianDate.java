@@ -1,4 +1,4 @@
-package org.core.java8.probems;
+package core.java8.probems;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

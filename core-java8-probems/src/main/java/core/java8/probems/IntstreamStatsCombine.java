@@ -1,4 +1,4 @@
-package org.core.java8.probems;
+package core.java8.probems;
 
 import java.util.Comparator;
 import java.util.IntSummaryStatistics;
