@@ -9,7 +9,7 @@ public class CollectionProblem {
 	
 	public static void main(String[] args) {
 		
-		approach1();
+		approach2();
 		
 	}
 
@@ -29,12 +29,12 @@ public class CollectionProblem {
 		System.out.println(orginalList);
 	}
 	
-	public void approach2() {
+	private static void approach2() {
 
 		List<String> list = new ArrayList<>(Arrays.asList( "E","F","G","H"));
 		List<String> prefix = new ArrayList<>(Arrays.asList( "A","B","C","D"));
-		
-		list.subList(0, 1).addAll(prefix);
+		System.out.println(list.subList(0, 0));
+		list.subList(0, 0).addAll(prefix);
 		System.out.println(list);
 	}
 
