@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.9.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
  <properties>
@@ -31,5 +31,6 @@
   <modules>
   	<module>core-java8-probems</module>
     <module>sample-actuator-project</module>
+    <module>general-problems</module>
   </modules>
 </project>
